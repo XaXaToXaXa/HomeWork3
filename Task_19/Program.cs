@@ -23,7 +23,7 @@
 // else Console.WriteLine($"Введи ПЯТИзначное число");
 
 Console.WriteLine("Введите пятизначное число:");
-int Num = int.Parse(Console.ReadLine());
+int Num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 int Temp = Num;
 int Rev = 0;
 while (Temp > 0)

@@ -6,8 +6,8 @@
 Console.WriteLine("Введите число");
 int CubNum = int.Parse(Console.ReadLine());
 Console.WriteLine($"Все кубы введеного числа {CubNum}: ");
-for (int ind = 1; ind <= CubNum; ind++)
+for (int index = 1; index <= CubNum; index++)
 {
-    Console.Write($" {ind * ind * ind}");
+    Console.Write($" {index * index * index}");
 }
  Console.WriteLine($"");
