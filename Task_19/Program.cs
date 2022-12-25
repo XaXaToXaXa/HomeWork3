@@ -34,9 +34,9 @@ while (Temp > 0)
 }
 if (Rev == Num)
 {
-     Console.WriteLine("О чудо это палиндром!");
+    Console.WriteLine("О чудо это палиндром!");
 }
-else 
+else
 {
     Console.WriteLine("Это обычное число, чуда не будет.");
 }

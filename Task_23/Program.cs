@@ -10,4 +10,4 @@ for (int index = 1; index <= CubNum; index++)
 {
     Console.Write($" {index * index * index}");
 }
- Console.WriteLine($"");
+Console.WriteLine($"");
